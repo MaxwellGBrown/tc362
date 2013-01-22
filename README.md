@@ -1,2 +1,3 @@
 #Readme
-This is the Readme file!
+Maxwell Brown
+Github for TC 362
