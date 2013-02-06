@@ -1,0 +1,26 @@
+Week3
+1.
+150 files
+command: ls -al | wc -l
+
+2.
+/sbin/init is the process with the highest memory usage
+command: ps aux | less
+
+3.
+My server apparently is running in the UTC timezone (Universal Coordinated Time)
+command: cat /etc/timezone
+
+4.
+there are 53 default groups in the Ubuntu server according to:
+cat /etc/group | wc -l
+after subtracting the wheel group I made and my user's group
+
+5.
+scp 362.tar maxwellgbrown@166.78.51.163:~
+log back into server
+tar xvf 362.tar
+then I had to install PHP with apt-get (I also had to use apt-get update to install)
+php 362.php
+The result was the fibbinochi sequence!
+0,1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181
